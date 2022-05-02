@@ -23,12 +23,12 @@ void loop()
   xPosition = analogRead(xPin);
   yPosition = analogRead(yPin);
 
-  if (xPosition == 0 & contador1 >= 0)
+  if (xPosition == 0 && contador1 >= 0)
   {
     contador1 = contador1 - 10;
     servoMotor.write(contador1);
   }
-  if (xPosition == 1023 & contador1 <= 180)
+  if (xPosition == 1023 && contador1 <= 180)
   {
     contador1 = contador1 + 10;
     servoMotor.write(contador1);
