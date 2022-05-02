@@ -5,7 +5,7 @@ int xPin = A0;
 
 int contador1 = 0;
 int xPosition = 0;
-int yPosition = 0;
+
 
 
 void setup()
