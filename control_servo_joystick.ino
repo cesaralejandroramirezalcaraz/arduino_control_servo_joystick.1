@@ -21,7 +21,7 @@ void setup()
 void loop()
 {
   xPosition = analogRead(xPin);
-  yPosition = analogRead(yPin);
+ 
 
   if (xPosition == 0 && contador1 >= 0)
   {
